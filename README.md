@@ -1,12 +1,12 @@
-# SL Meet — Sign Language Recognition for Video Conferencing
+# SL  — Sign Language Recognition for Video Conferencing
 
-A real-time Sign Language (SL) recognition system built with MediaPipe, OpenCV, and LSTM neural networks. Designed to help deaf and hard-of-hearing individuals communicate effectively in video conferencing environments like Google Meet.
+A real-time Sign Language (SL) recognition system built with MediaPipe, OpenCV, and LSTM neural networks. Designed to help deaf and hard-of-hearing individuals communicate effectively in video conferencing environments like Google .
 
 ---
 
 ## Overview
 
-This system recognizes 6 SL gestures commonly used in meeting contexts and displays them as on-screen text in real time. A two-layer LSTM model trained on hand landmark sequences achieves **94.44% test accuracy**.
+This system recognizes 6 SL gestures commonly used in ing contexts and displays them as on-screen text in real time. A two-layer LSTM model trained on hand landmark sequences achieves **94.44% test accuracy**.
 
 | Gesture     | Meaning              |
 | ----------- | -------------------- |
@@ -41,7 +41,7 @@ Webcam → OpenCV → MediaPipe (21 landmarks × xyz = 63 values)
 ## Project Structure
 
 ```
-SL-Meet/
+SL-/
 ├── collect.py          # Data collection script (MediaPipe + webcam)
 ├── train.py            # LSTM model training
 ├── test.py             # Real-time inference
@@ -62,8 +62,8 @@ SL-Meet/
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/SL-Meet.git
-cd SL-Meet
+git clone https://github.com/yourusername/SL-.git
+cd SL-
 
 # Create a virtual environment (Python 3.12 recommended)
 python3.12 -m venv .venv
